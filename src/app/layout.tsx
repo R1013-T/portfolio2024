@@ -25,7 +25,7 @@ export default function RootLayout({
         className={cn(
           inter.className,
           notoSansJP.className,
-          'min-h-dvh bg-background font-sans antialiased',
+          'bg-background font-sans antialiased',
         )}
       >
         <ThemeProvider
