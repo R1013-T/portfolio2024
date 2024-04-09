@@ -1,7 +1,7 @@
 export const defaultLanguage = 'ja'
 export const availableLanguages = [defaultLanguage, 'en']
 
-export const namespaces = ['home']
+export const namespaces = ['about', 'work', 'article']
 
 export function getOptions(lng = defaultLanguage) {
   return {

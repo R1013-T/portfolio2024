@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 import { ThemeToggle } from '@/components/theme/toggle'
@@ -14,28 +15,31 @@ export default async function ComputerGrid({ lang }: { lang: string }) {
         <div className="w-full h-64 flex gap-2">
           <div className="w-full h-full">
             <GridItem
-              title="ABOUT"
-              link={{ href: '/about#profile', isDisplay: true }}
+              title={t('about_title')}
+              link={{ href: `/${lang}/about#profile`, isDisplay: true }}
             >
-              {t('app_name')}
+              {t('name')}
             </GridItem>
           </div>
           <div className="w-64 aspect-square">
-            <GridItem link={{ href: '/about#hobby' }}>cacao</GridItem>
+            <GridItem link={{ href: `${lang}/about#hobby` }}>cacao</GridItem>
           </div>
         </div>
         <div className="w-full h-full flex gap-2">
           <div className="min-w-64 w-full h-[396px] lg:h-full">
             <GridItem
-              title="EXPERIENCE"
-              link={{ href: '/about#experience', isDisplay: true }}
+              title={t('experience_title')}
+              link={{ href: `${lang}/about#experience`, isDisplay: true }}
             >
               experience
             </GridItem>
           </div>
           <div className="flex flex-col gap-2">
             <div className="h-64 lg:h-full lg:min-h-80 w-full">
-              <GridItem title="WORK" link={{ href: '/work', isDisplay: true }}>
+              <GridItem
+                title={t('work_title')}
+                link={{ href: `${lang}/work`, isDisplay: true }}
+              >
                 work
               </GridItem>
             </div>
@@ -64,7 +68,12 @@ export default async function ComputerGrid({ lang }: { lang: string }) {
             </GridItem>
           </div>
           <div className="w-32 h-full lg:h-32 aspect-square">
-            <GridItem>lang</GridItem>
+            <GridItem>
+              <div className="flex gap-2">
+                <Link href="/ja">ja</Link>
+                <Link href="/en">en</Link>
+              </div>
+            </GridItem>
           </div>
           <div className="lg:hidden w-full h-32 border rounded-3xl">
             <GridItem>none</GridItem>
@@ -72,14 +81,14 @@ export default async function ComputerGrid({ lang }: { lang: string }) {
         </div>
         <div className="h-64 lg:h-full w-full lg:min-h-96">
           <GridItem
-            title="TECHNOLOGY"
-            link={{ href: '/about#technology', isDisplay: true }}
+            title={t('tech_title')}
+            link={{ href: `${lang}/about#technology`, isDisplay: true }}
           >
             technology
           </GridItem>
         </div>
         <div className="h-80 w-full min-h-32">
-          <GridItem title="ARTICLES">articles</GridItem>
+          <GridItem title={t('article_title')}>articles</GridItem>
         </div>
       </div>
     </article>
