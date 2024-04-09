@@ -4,6 +4,8 @@ import React from 'react'
 import { ThemeToggle } from '@/components/theme/toggle'
 import { getTranslation } from '@/i18n/server'
 
+import ExperienceItem from '../about/experience-item'
+import ProfileItem from '../about/profile-item'
 import GridItem from './grid-item'
 
 export default async function ComputerGrid({ lang }: { lang: string }) {
@@ -18,7 +20,7 @@ export default async function ComputerGrid({ lang }: { lang: string }) {
               title={t('about_title')}
               link={{ href: `/${lang}/about#profile`, isDisplay: true }}
             >
-              {t('name')}
+              <ProfileItem lang={lang} />
             </GridItem>
           </div>
           <div className="w-64 aspect-square">
@@ -31,7 +33,7 @@ export default async function ComputerGrid({ lang }: { lang: string }) {
               title={t('experience_title')}
               link={{ href: `${lang}/about#experience`, isDisplay: true }}
             >
-              experience
+              <ExperienceItem lang={lang} />
             </GridItem>
           </div>
           <div className="flex flex-col gap-2">

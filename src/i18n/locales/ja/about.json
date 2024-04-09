@@ -1,8 +1,19 @@
 {
   "about_title": "私について",
   "name": "RYU",
+  "profile_desc": "こんにちは 👋 ものづくりが好きな、学生エンジニアです 🔰",
+
 
   "experience_title": "これまでの経験",
+
+  "school": "学校",
+  "intern": "インターン",
+
+  "tech.c.": "TECH.C. 入学",
+  "microsoft_seminar": "Microsoftゼミ",
+  "lt-circle":"LT サークル",
+  "zeroichi": "株式会社ゼロイチラボ",
+
 
   "tech_title": "好きな技術"
 }

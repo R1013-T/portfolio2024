@@ -23,7 +23,7 @@ export default function GridItem({
       >
         <MarbleBackground />
         {title && (
-          <h3 className="absolute top-5 left-5 text-primary/70 tracking-widest overflow-hidden">
+          <h3 className="absolute z-10 top-5 left-5 text-primary/70 tracking-widest overflow-hidden">
             {title}
             <span className="h-px w-full block bg-primary/30 mt-0.5 -translate-x-full ease-out transition duration-300 group-hover:translate-x-0"></span>
           </h3>
@@ -34,7 +34,7 @@ export default function GridItem({
         {link?.isDisplay && (
           <Link
             href=""
-            className="absolute bottom-5 right-5 border border-primary/30 rounded-full"
+            className="absolute z-10 bottom-5 right-5 border border-primary/30 rounded-full backdrop-blur"
           >
             <div className="h-8 w-8 relative rounded-full overflow-hidden">
               <ArrowUpRight

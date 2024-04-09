@@ -1,8 +1,19 @@
 {
   "about_title": "ABOUT",
   "name": "RYU",
+  "profile_desc": "Hi 👋, I am a student engineer who loves manufacturing 🔰.",
+
 
   "experience_title": "EXPERIENCE",
+
+  "school": "School",
+  "intern": "Intern",
+
+  "tech.c.": "TECH.C. enrollment",
+  "microsoft_seminar": "Microsoft seminar",
+  "lt-circle":"LT Circle",
+  "zeroichi": "Zeroichi Laboratory, Inc.",
+
 
   "tech_title": "TECHNOLOGIES"
 }
