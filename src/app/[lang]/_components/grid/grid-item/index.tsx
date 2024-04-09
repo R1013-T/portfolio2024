@@ -12,6 +12,7 @@ export default function GridItem({
   link?: {
     href: string
     isDisplay?: boolean
+    blank?: boolean
   }
   children: React.ReactNode
 }) {
@@ -19,6 +20,7 @@ export default function GridItem({
     <section className="relative h-full w-full border rounded-3xl overflow-hidden shadow dark:shadow-black group">
       <Link
         href={link?.href || ''}
+        target={link?.blank ? '_blank' : '_self'}
         className={`${link ? 'cursor-pointer' : 'cursor-default'}`}
       >
         <MarbleBackground />
