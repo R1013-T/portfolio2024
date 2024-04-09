@@ -203,7 +203,7 @@ export default async function TechnologyItem({ lang }: { lang: string }) {
           className="text-muted-foreground h-full"
         >
           {icons.map((icon) => (
-            <div key={icon.label} className="mx-6">
+            <div key={icon.label} className="mx-6 p-3 rounded-2xl bg-border">
               <Slot className="w-10 h-10 text-purple-300">{icon.icon}</Slot>
             </div>
           ))}
