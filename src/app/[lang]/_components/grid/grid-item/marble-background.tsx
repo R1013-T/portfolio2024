@@ -4,7 +4,7 @@ export default function MarbleBackground() {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        className="w-full h-full opacity-20 dark:opacity-10"
+        className="w-full h-full opacity-20 dark:opacity-5"
       >
         <defs>
           <filter id="filter_texture">
