@@ -1,5 +1,6 @@
 import './globals.css'
 
+import { dir } from 'i18next'
 import type { Metadata } from 'next'
 import { Inter, Noto_Sans_JP } from 'next/font/google'
 
@@ -16,11 +17,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params: { lang },
 }: {
   children: React.ReactNode
+  params: { lang: string }
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={lang} dir={dir(lang)} suppressHydrationWarning>
       <body
         className={cn(
           inter.className,

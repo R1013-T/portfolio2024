@@ -1,10 +1,13 @@
 import React from 'react'
 
 import { ThemeToggle } from '@/components/theme/toggle'
+import { getTranslation } from '@/i18n/server'
 
 import GridItem from './grid-item'
 
-export default function ComputerGrid() {
+export default async function ComputerGrid({ lang }: { lang: string }) {
+  const { t } = await getTranslation(lang)
+
   return (
     <article className="h-5/6 lg:h-dvh max-w-7xl mx-auto md:flex-wrap gap-2 lg:flex-nowrap hidden p-8 md:flex">
       <div className="w-full h-full flex flex-col gap-2">
@@ -14,7 +17,7 @@ export default function ComputerGrid() {
               title="ABOUT"
               link={{ href: '/about#profile', isDisplay: true }}
             >
-              profile
+              {t('app_name')}
             </GridItem>
           </div>
           <div className="w-64 aspect-square">
