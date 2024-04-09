@@ -15,5 +15,7 @@
   "zeroichi": "Zeroichi Laboratory, Inc.",
 
 
-  "tech_title": "TECHNOLOGIES"
+  "tech_title": "TECHNOLOGIES",
+  "tech_desc_1": "I love Next.js, TypeScript!",
+  "tech_desc_2": "I also use Go, Python depending on the case."
 }

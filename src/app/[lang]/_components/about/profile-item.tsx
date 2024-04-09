@@ -15,7 +15,7 @@ export default async function ProfileItem({ lang }: { lang: string }) {
           height={100}
           className="rounded-full"
         />
-        <div className="absolute -z-10 top-0 left-0 w-full h-full bg-purple-200 rounded-full blur"></div>
+        <div className="absolute -z-10 top-0 left-0 w-full h-full bg-purple-200 rounded-full blur-md"></div>
       </div>
       <div>
         <p className="font-semibold text-lg mb-1">{t('name')}</p>

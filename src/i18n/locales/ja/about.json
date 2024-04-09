@@ -15,5 +15,7 @@
   "zeroichi": "株式会社ゼロイチラボ",
 
 
-  "tech_title": "好きな技術"
+  "tech_title": "好きな技術",
+  "tech_desc_1": "Next.js・TypeScript が大好きです！",
+  "tech_desc_2": "Go・Python もケースによって使用します。"
 }

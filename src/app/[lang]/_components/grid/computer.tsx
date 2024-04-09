@@ -6,13 +6,14 @@ import { getTranslation } from '@/i18n/server'
 
 import ExperienceItem from '../about/experience-item'
 import ProfileItem from '../about/profile-item'
+import TechnologyItem from '../about/technology-item'
 import GridItem from './grid-item'
 
 export default async function ComputerGrid({ lang }: { lang: string }) {
   const { t } = await getTranslation(lang)
 
   return (
-    <article className="h-5/6 lg:h-dvh max-w-7xl mx-auto md:flex-wrap gap-2 lg:flex-nowrap hidden p-8 md:flex">
+    <article className="h-5/6 lg:h-dvh max-w-7xl mx-auto md:flex-wrap gap-2 lg:flex-nowrap hidden p-6 md:flex">
       <div className="w-full h-full flex flex-col gap-2">
         <div className="w-full h-64 flex gap-2">
           <div className="w-full h-full">
@@ -81,12 +82,12 @@ export default async function ComputerGrid({ lang }: { lang: string }) {
             <GridItem>none</GridItem>
           </div>
         </div>
-        <div className="h-64 lg:h-full w-full lg:min-h-96">
+        <div className="h-64 lg:h-full w-full lg:w-[390px] lg:min-h-96">
           <GridItem
             title={t('tech_title')}
             link={{ href: `${lang}/about#technology`, isDisplay: true }}
           >
-            technology
+            <TechnologyItem lang={lang} />
           </GridItem>
         </div>
         <div className="h-80 w-full min-h-32">

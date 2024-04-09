@@ -28,7 +28,7 @@ export default function GridItem({
             <span className="h-px w-full block bg-primary/30 mt-0.5 -translate-x-full ease-out transition duration-300 group-hover:translate-x-0"></span>
           </h3>
         )}
-        <div className="h-full w-full flex justify-center items-center p-5">
+        <div className="h-full w-full flex justify-center items-center">
           {children}
         </div>
         {link?.isDisplay && (
