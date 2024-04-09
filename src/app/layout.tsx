@@ -1,12 +1,13 @@
 import './globals.css'
 
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Noto_Sans_JP } from 'next/font/google'
 
 import { ThemeProvider } from '@/components/theme/provider'
 import { cn } from '@/lib/utils'
 
 const inter = Inter({ subsets: ['latin'] })
+const notoSansJP = Noto_Sans_JP({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -22,8 +23,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          'min-h-screen bg-background font-sans antialiased',
           inter.className,
+          notoSansJP.className,
+          'min-h-dvh bg-background font-sans antialiased',
         )}
       >
         <ThemeProvider
