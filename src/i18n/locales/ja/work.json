@@ -1,5 +1,17 @@
 {
   "work_title": "作ったもの",
   "work_description_1": "Webアプリケーションの開発を行っています。",
-  "work_description_2": "フロントエンド、バックエンド 共に経験があります。"
+  "work_description_2": "フロントエンド、バックエンド 共に経験があります。",
+
+  "slide_share": "スライド共有・管理 プラットフォーム",
+  "slide_share_description": "参加している、LTサークルで発表したスライドを共有・管理するためのWebアプリケーション。",
+
+  "interview": "AI面接アプリ",
+  "interview_description": "AIが就職活動の模擬面接を行ってくれるWebアプリ。 Azure OpenAI ServiceとVercel AI SDKを使用。",
+
+  "giftjob": "就活管理アプリ",
+  "giftjob_description": "企業情報の管理や、AIによる ES添削や模擬面接を行う就活管理アプリ。Microsoftゼミに参加し、開発を行った。イベントで発表も数回行い、マイクロソフト賞を受賞。",
+
+  "ar": "WebAR推理ゲーム",
+  "ar_description": "WebARを使用した推理ゲーム。学園祭に出展し、多くの方に楽しんでいただいた。参加者アンケートでは、学内１位を獲得。"
 }

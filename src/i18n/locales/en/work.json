@@ -1,5 +1,17 @@
 {
   "work_title": "WORK",
   "work_description_1": "I am developing web applications.",
-  "work_description_2": "I have experience in both front-end and back-end."
+  "work_description_2": "I have experience in both front-end and back-end.",
+
+  "slide_share": "Slide Share Platform",
+  "slide_share_description": "A web application for sharing and managing slides presented in the LT circle.",
+
+  "interview": "AI Interview App",
+  "interview_description": "A web application that allows AI to conduct mock interviews for job hunting. Using Azure OpenAI Service and Vercel AI SDK.",
+
+  "giftjob": "Job Hunting Management App",
+  "giftjob_description": "A job hunting management app that manages company information and conducts AI ES correction and mock interviews. I participated in the Microsoft Seminar and developed it. I also presented it at events and won the Microsoft Award.",
+
+  "ar": "WebAR Mystery Game",
+  "ar_description": "A mystery game using WebAR. I exhibited it at the school festival and many people enjoyed it. In the participant survey, I won first place in the school."
 }
