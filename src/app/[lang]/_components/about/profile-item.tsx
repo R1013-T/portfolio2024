@@ -7,7 +7,7 @@ export default async function ProfileItem({ lang }: { lang: string }) {
 
   return (
     <div className="flex justify-center items-center gap-5">
-      <div className="relative">
+      <div className="relative mx-4">
         <Image
           src="/icon.webp"
           alt="profile"
