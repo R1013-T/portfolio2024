@@ -199,7 +199,7 @@ export default async function TechnologyItem({ lang }: { lang: string }) {
         <Marquee
           gradient
           gradientColor="hsl(var(--background))"
-          gradientWidth={120}
+          gradientWidth="30%"
           className="text-muted-foreground h-full"
         >
           {icons.map((icon) => (

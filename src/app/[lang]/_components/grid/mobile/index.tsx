@@ -17,7 +17,7 @@ export default async function MobileGrid({ lang }: { lang: string }) {
         </div>
         <SettingSection lang={lang} />
         <WorkSection lang={lang} />
-        <TechnologySection lang={lang} />
+        {/* <TechnologySection lang={lang} /> */}
         <ArticleSection lang={lang} />
       </div>
     </article>
