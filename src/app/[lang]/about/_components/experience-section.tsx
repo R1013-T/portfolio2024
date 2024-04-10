@@ -42,7 +42,7 @@ export default async function ExperienceSection({
         {experience.map((item, index) => (
           <li key={index} className="flex flex-col gap-0.5">
             <p className="text-muted-foreground text-xs">{item.type}</p>
-            <p className="text-sm whitespace-nowrap">{item.title}</p>
+            <p className="text-sm">{item.title}</p>
             <p className="text-muted-foreground text-[11px]">{item.date}</p>
           </li>
         ))}

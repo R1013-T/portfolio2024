@@ -10,7 +10,7 @@ export default async function HobbySection({
   const hobbies = [
     {
       name: t('chocolate'),
-      desc: t('chocolate_desc') + '\n' + t('chocolate_desc_2'),
+      desc: t('chocolate_desc') + ' ' + t('chocolate_desc_2'),
     },
     {
       name: t('snowboard'),
@@ -32,7 +32,7 @@ export default async function HobbySection({
         {hobbies.map((item, index) => (
           <li key={index} className="flex flex-col gap-0.5">
             <p className="text-muted-foreground text-xs">{item.name}</p>
-            <p className="text-sm  whitespace-pre">{item.desc}</p>
+            <p className="text-sm">{item.desc}</p>
           </li>
         ))}
       </ul>
