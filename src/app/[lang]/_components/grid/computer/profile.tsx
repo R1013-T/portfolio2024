@@ -1,7 +1,6 @@
-import React from 'react'
-
 import { getTranslation } from '@/i18n/server'
 
+import HobbyItem from '../../about/hobby-item'
 import ProfileItem from '../../about/profile-item'
 import GridItem from '../grid-item'
 
@@ -19,7 +18,9 @@ export default async function ProfileSection({ lang }: { lang: string }) {
         </GridItem>
       </div>
       <div className="w-64 aspect-square">
-        <GridItem link={{ href: `${lang}/about#hobby` }}>cacao</GridItem>
+        <GridItem link={{ href: `${lang}/about#hobby` }}>
+          <HobbyItem />
+        </GridItem>
       </div>
     </div>
   )

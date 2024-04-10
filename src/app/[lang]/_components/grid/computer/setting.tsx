@@ -20,7 +20,9 @@ export default async function SettingSection({ lang }: { lang: string }) {
         </GridItem>
       </div>
       <div className="lg:hidden w-full h-32 border rounded-3xl">
-        <GridItem>none</GridItem>
+        <GridItem>
+          <p className="tracking-widest">😎😎😎😎😎😎</p>
+        </GridItem>
       </div>
     </div>
   )
