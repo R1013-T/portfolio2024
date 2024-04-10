@@ -1,6 +1,7 @@
 import { getTranslation } from '@/i18n/server'
 
 import TechnologyItem from '../../about/technology-item'
+import ArticleItem from '../../article/article-item'
 import GridItem from '../grid-item'
 
 export default async function AsideSection({ lang }: { lang: string }) {
@@ -16,7 +17,15 @@ export default async function AsideSection({ lang }: { lang: string }) {
         </GridItem>
       </div>
       <div className="h-80 w-full min-h-32">
-        <GridItem title={t('article_title')}>articles</GridItem>
+        <GridItem
+          title={t('article_title')}
+          link={{
+            href: 'https://qiita.com/ryu1013',
+            blank: true,
+          }}
+        >
+          <ArticleItem lang={lang} />
+        </GridItem>
       </div>
     </>
   )

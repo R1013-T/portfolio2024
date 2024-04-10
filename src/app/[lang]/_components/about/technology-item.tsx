@@ -205,9 +205,9 @@ export default async function TechnologyItem({ lang }: { lang: string }) {
           {icons.map((icon) => (
             <div
               key={icon.label}
-              className="mx-6 p-3 rounded-2xl bg-border border border-background dark:border-none relative"
+              className="mx-6 p-4 rounded-2xl bg-border border border-background dark:border-none relative"
             >
-              <Slot className="w-10 h-10 text-purple-300">{icon.icon}</Slot>
+              <Slot className="w-8 h-8 text-purple-300">{icon.icon}</Slot>
               <span className="absolute -z-10 w-full h-full top-0 left-0 bg-purple-300/60 rounded-2xl blur"></span>
             </div>
           ))}
