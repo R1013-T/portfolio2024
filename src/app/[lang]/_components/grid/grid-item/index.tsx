@@ -44,7 +44,7 @@ export default function GridItem({
                 group-hover:translate-x-8 group-hover:-translate-y-8"
               />
               <ArrowUpRight
-                className="absolute top-1/2 right-1/2 h-5 w-5 text-primary/70 ease-in-out transition duration-300
+                className="absolute top-1/2 right-1/2 h-5 w-5 text-purple-300 ease-in-out transition duration-300
                 -translate-x-8 translate-y-8 group-hover:translate-x-1/2 group-hover:-translate-y-1/2"
               />
             </div>
