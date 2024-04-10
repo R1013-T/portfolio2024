@@ -2,20 +2,42 @@
   "about_title": "ABOUT",
   "name": "RYU",
   "profile_desc": "Hi 👋, I am a student engineer who loves manufacturing 🔰.",
-
+  "profile_page_desc": "I am a student engineer who loves manufacturing.",
 
   "experience_title": "EXPERIENCE",
+  "experience_page_desc": "I am from Gunma Prefecture. I moved to Tokyo when I entered a technical school. I actively participate in the school community.",
+  "experience_page_desc_2": "I am currently attending school while participating in a long-term internship.",
 
   "school": "School",
   "intern": "Intern",
 
   "tech.c.": "TECH.C. enrollment",
   "microsoft_seminar": "Microsoft seminar",
-  "lt-circle":"LT Circle",
+  "lt-circle": "LT Circle",
   "zeroichi": "Zeroichi Laboratory, Inc.",
-
 
   "tech_title": "TECHNOLOGIES",
   "tech_desc_1": "I love Next.js, TypeScript 💜",
-  "tech_desc_2": "I also use Go, Python depending on the case !"
+  "tech_desc_2": "I also use Go, Python depending on the case !",
+  "tech_page_desc": "I am interested in web-related technologies in general.",
+  "tech_page_desc_2": "I am learning a wide range of technologies, regardless of front-end or back-end.",
+
+  "front_end": "Front-end",
+  "back_end": "Back-end",
+  "other": "Other",
+
+  "contact_title": "CONTACT",
+  "contact_page_desc": "Please feel free to contact me.",
+  "mail": "Mail Address",
+
+  "hobby_title": "HOBBY",
+  "hobby_page_desc": "Of course, I love programming, but I also value my hobbies.",
+
+  "chocolate": "Chocolate",
+  "chocolate_desc": "I love chocolate. I love to eat and make it!",
+  "chocolate_desc_2": "I am currently studying for the Chocolate Specialist Exam.",
+  "snowboard": "Snowboard",
+  "snowboard_desc": "I have been snowboarding since elementary school. It's my winter fun.",
+  "walking": "Walking",
+  "walking_desc": "I like to take a walk. It's perfect for refreshing your mind."
 }

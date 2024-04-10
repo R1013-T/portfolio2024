@@ -2,20 +2,43 @@
   "about_title": "私について",
   "name": "RYU",
   "profile_desc": "こんにちは 👋 ものづくりが好きな、学生エンジニアです 🔰",
-
+  "profile_page_desc": "ものづくりが好きな、学生エンジニアです。",
 
   "experience_title": "これまでの経験",
+  "experience_page_desc": "出身は群馬県です。専門学校への入学を機に、上京しました。学校のコミュニティには積極的に参加するようにしています。",
+  "experience_page_desc_2": "現在は、学校に通いながら、長期インターに参加しています。",
 
   "school": "学校",
   "intern": "インターン",
 
   "tech.c.": "TECH.C. 入学",
   "microsoft_seminar": "Microsoftゼミ",
-  "lt-circle":"LT サークル",
+  "lt-circle": "LT サークル",
   "zeroichi": "株式会社ゼロイチラボ",
-
 
   "tech_title": "好きな技術",
   "tech_desc_1": "Next.js・TypeScript が大好きです 💜",
-  "tech_desc_2": "Go・Python もケースによって使用します！"
+  "tech_desc_2": "Go・Python もケースによって使用します！",
+  "tech_page_desc": "Web関連の技術全般に興味があります。",
+  "tech_page_desc_2": "フロントエンド・バックエンド問わず、幅広く学んでいます。",
+
+  "front_end": "フロントエンド",
+  "back_end": "バックエンド",
+  "other": "その他",
+
+  "contact_title": "連絡先",
+  "contact_page_desc": "お気軽にご連絡ください。",
+  "mail": "メール",
+
+  "hobby_title": "趣味",
+  "hobby_page_desc": "もちろんプログラミングは好きですが、趣味も大切にしています。",
+
+  "chocolate": "チョコレート",
+  "chocolate_desc": "チョコレートが大好きです。食べるのも作るのも！",
+  "chocolate_desc_2": "最近、チョコレートスペシャリスト検定の勉強をしています。",
+  "snowboard": "スノーボード",
+  "snowboard_desc": "小学生の頃からスノーボードをしています。冬の楽しみです。",
+  "walking": "散歩",
+  "walking_desc": "散歩が好きです。気持ちをリフレッシュするのに最適です。"
+  
 }
