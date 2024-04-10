@@ -10,7 +10,7 @@ export default function Home({ params }: { params: { lang: string } }) {
     <main className="overflow-hidden">
       <ScrollArea className="h-dvh w-full">
         <ComputerGrid lang={lang} />
-        <MobileGrid />
+        <MobileGrid lang={lang} />
       </ScrollArea>
     </main>
   )
