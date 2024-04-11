@@ -19,6 +19,10 @@ export default async function ContactSection({
       link: 'https://github.com/R1013-T',
     },
     {
+      name: 'Wantedly',
+      link: 'https://www.wantedly.com/id/RYU1013',
+    },
+    {
       name: 'X',
       link: 'https://twitter.com/rtjob2023',
     },
