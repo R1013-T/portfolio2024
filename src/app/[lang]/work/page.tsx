@@ -15,15 +15,17 @@ import {
   SiTypescript,
   SiVercel,
 } from '@icons-pack/react-simple-icons'
-import { ArrowUpRight, SquareArrowOutUpRight } from 'lucide-react'
-import Image from 'next/image'
-import Link from 'next/link'
+import type { Metadata } from 'next'
 
 import BackButton from '@/components/common/back-button'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { getTranslation } from '@/i18n/server'
 
 import WorkItem from './_components/item'
+
+export const metadata: Metadata = {
+  title: 'WORK',
+}
 
 export default async function Work({ params }: { params: { lang: string } }) {
   const lang = params.lang
@@ -33,7 +35,7 @@ export default async function Work({ params }: { params: { lang: string } }) {
     {
       title: t('slide_share'),
       description: t('slide_share_description'),
-      image: '/work/slide_share.webp',
+      image: '/work/slide.webp',
       link: {
         href: 'https://slide-share-web.vercel.app/',
         github: 'https://github.com/R1013-T/slide-share',

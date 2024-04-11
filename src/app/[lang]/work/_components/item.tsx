@@ -37,7 +37,7 @@ export default function WorkItem({
       </div>
       <div className="relative aspect-square overflow-hidden border">
         <div className="absolute -inset-1 bg-[linear-gradient(to_right,theme(colors.border)_1px,transparent_1px),linear-gradient(to_bottom,theme(colors.border)_1px,transparent_1px)] bg-[size:24px_24px]" />
-        <Image src={image} alt="Interview" layout="fill" />
+        <Image src={image} alt={title} layout="fill" />
         <div className="absolute py-4 px-3.5 top-o left-0 w-full flex justify-between items-center gap-2.5">
           <Link
             href={link.github}

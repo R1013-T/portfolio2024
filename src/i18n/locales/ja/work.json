@@ -4,7 +4,7 @@
   "work_description_2": "フロントエンド、バックエンド 共に経験があります。",
 
   "slide_share": "スライド共有・管理 プラットフォーム",
-  "slide_share_description": "参加している、LTサークルで発表したスライドを共有・管理するためのWebアプリケーション。",
+  "slide_share_description": "参加している、LTサークルで発表したスライドを共有・管理するためのWebアプリケーション。アプリ内でスライドのアップロードや管理、ユーザーの管理を行うことが出来ます。",
 
   "interview": "AI面接アプリ",
   "interview_description": "AIが就職活動の模擬面接を行ってくれるWebアプリ。 Azure OpenAI ServiceとVercel AI SDKを使用。",

@@ -1,3 +1,5 @@
+import type { Metadata } from 'next'
+
 import BackButton from '@/components/common/back-button'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { getTranslation } from '@/i18n/server'
@@ -7,6 +9,10 @@ import ExperienceSection from './_components/experience-section'
 import HobbySection from './_components/hobby-section'
 import ProfileSection from './_components/profile-section'
 import TechnologySection from './_components/technology-section'
+
+export const metadata: Metadata = {
+  title: 'ABOUT',
+}
 
 export default async function About({ params }: { params: { lang: string } }) {
   const lang = params.lang
