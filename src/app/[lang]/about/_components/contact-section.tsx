@@ -23,6 +23,10 @@ export default async function ContactSection({
       link: 'https://www.wantedly.com/id/RYU1013',
     },
     {
+      name: 'AtCoder',
+      link: 'https://atcoder.jp/users/RYU_1013',
+    },
+    {
       name: 'X',
       link: 'https://twitter.com/rtjob2023',
     },
