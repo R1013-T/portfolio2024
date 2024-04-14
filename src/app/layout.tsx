@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     type: 'website',
     title: 'RYU PORTFOLIO',
     description: 'RYUのポートフォリオサイトです。',
+    url: 'https://www.ryu1013.com',
   },
   twitter: {
     card: 'summary_large_image',
