@@ -42,6 +42,10 @@ export default async function ContactSection({
       name: 'しずかなインターネット',
       link: 'https://sizu.me/ryu_1013',
     },
+    {
+      name: t('lt-circle'),
+      link: 'https://www.techc-lt.tokyo/speakers/ryu',
+    },
   ]
 
   return (
