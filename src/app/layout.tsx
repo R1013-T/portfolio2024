@@ -18,31 +18,7 @@ export const metadata: Metadata = {
     default: 'RYU PORTFOLIO',
   },
   description: 'RYUのポートフォリオサイトです。',
-  openGraph: {
-    type: 'website',
-    locale: 'ja_JP',
-    url: 'https://www.ryu-tech.tokyo/',
-    title: 'RYU PORTFOLIO',
-    description: 'RYUのポートフォリオサイトです。',
-    images: [
-      {
-        url: 'https://github.com/R1013-T/portfolio2024/blob/main/src/app/opengraph-image.png',
-        width: 800,
-        height: 450,
-        alt: 'RYU PORTFOLIO',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'RYU PORTFOLIO',
-    description: 'RYUのポートフォリオサイトです。',
-    site: '@rtjob2023',
-    creator: '@rtjob2023',
-    images: [
-      'https://github.com/R1013-T/portfolio2024/blob/main/src/app/twitter-image.png',
-    ],
-  },
+  keywords: ['RYU', 'ポートフォリオ', 'portfolio', 'RYU PORTFOLIO', 'ryu1013'],
 }
 
 export default function RootLayout({
