@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   },
   description: 'RYUのポートフォリオサイトです。',
   keywords: ['RYU', 'ポートフォリオ', 'portfolio', 'RYU PORTFOLIO', 'ryu1013'],
+  openGraph: {
+    type: 'website',
+    title: 'RYU PORTFOLIO',
+    description: 'RYUのポートフォリオサイトです。',
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
 }
 
 export default function RootLayout({
