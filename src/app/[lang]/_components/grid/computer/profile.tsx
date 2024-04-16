@@ -17,7 +17,7 @@ export default async function ProfileSection({ lang }: { lang: string }) {
           <ProfileItem lang={lang} />
         </GridItem>
       </div>
-      <div className="w-64 aspect-square">
+      <div className="w-64 lg:hidden xl:block aspect-square">
         <GridItem link={{ href: `${lang}/about#hobby` }}>
           <HobbyItem />
         </GridItem>

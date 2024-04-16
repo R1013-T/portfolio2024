@@ -6,8 +6,8 @@ export default async function ProfileItem({ lang }: { lang: string }) {
   const { t } = await getTranslation(lang)
 
   return (
-    <div className="flex justify-center items-center gap-5">
-      <div className="relative mx-4">
+    <div className="flex justify-center items-center gap-5 p-3">
+      <div className="relative">
         <Image
           src="/icon.webp"
           alt="profile"
@@ -17,7 +17,7 @@ export default async function ProfileItem({ lang }: { lang: string }) {
         />
         <div className="absolute -z-10 top-0 left-0 w-full h-full bg-purple-200 rounded-full blur-md"></div>
       </div>
-      <div>
+      <div className="w-full">
         <p className="font-semibold text-lg mb-1">{t('name')}</p>
         <p className="text-balance text-sm">{t('profile_desc')}</p>
       </div>
