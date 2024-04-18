@@ -37,7 +37,7 @@ export default async function Work({ params }: { params: { lang: string } }) {
       description: t('slide_share_description'),
       image: '/work/slide.webp',
       link: {
-        href: 'https://slide-share-web.vercel.app/',
+        href: 'https://www.techc-lt.tokyo/',
         github: 'https://github.com/R1013-T/slide-share',
       },
       technologies: [
