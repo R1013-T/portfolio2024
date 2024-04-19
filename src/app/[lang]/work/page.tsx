@@ -78,7 +78,7 @@ export default async function Work({ params }: { params: { lang: string } }) {
       description: t('giftjob_description'),
       image: '/work/giftjob.webp',
       link: {
-        href: 'https://giftjob-frontend.vercel.app/',
+        href: 'https://www.microsoft.com/ja-jp/industry/blog/microsoft-in-business/2024/04/05/case-study-utilization-of-azure-openai-service-by-students/',
         github: 'https://github.com/R1013-T/GiftJob',
       },
       technologies: [
