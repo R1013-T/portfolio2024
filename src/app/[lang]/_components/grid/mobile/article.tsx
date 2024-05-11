@@ -12,7 +12,6 @@ export default async function ArticleSection({ lang }: { lang: string }) {
         title={t('article_title')}
         link={{
           href: `${lang}/blog`,
-          blank: true,
         }}
       >
         <ArticleItem lang={lang} />

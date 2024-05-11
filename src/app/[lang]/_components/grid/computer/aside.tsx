@@ -21,7 +21,6 @@ export default async function AsideSection({ lang }: { lang: string }) {
           title={t('article_title')}
           link={{
             href: `${lang}/blog`,
-            blank: true,
           }}
         >
           <ArticleItem lang={lang} />
