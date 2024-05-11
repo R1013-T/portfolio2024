@@ -1,5 +1,3 @@
-import './style.css'
-
 import { X } from 'lucide-react'
 import { cookies } from 'next/headers'
 import Image from 'next/image'
@@ -62,7 +60,7 @@ export default async function BlogDetail({
           )}
         </div>
       </div>
-      <div className="w-full">
+      <div className="blog w-full">
         {article.content &&
           article.content.map((item, index) => {
             switch (item.type) {
