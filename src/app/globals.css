@@ -73,6 +73,12 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .image {
+    object-fit: contain;
+    position: relative !important;
+    width: auto !important;
+  }
 }
 
 .experience-grade {

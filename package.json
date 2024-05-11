@@ -20,6 +20,8 @@
     "@radix-ui/react-scroll-area": "^1.0.5",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-switch": "^1.0.3",
+    "@supabase/ssr": "^0.3.0",
+    "@supabase/supabase-js": "^2.43.1",
     "@types/node": "20.12.6",
     "@types/react": "18.2.75",
     "@types/react-dom": "18.2.24",
@@ -46,7 +48,8 @@
     "tailwind-merge": "^2.2.2",
     "tailwindcss": "3.4.3",
     "tailwindcss-animate": "^1.0.7",
-    "typescript": "5.4.4"
+    "typescript": "5.4.4",
+    "unfurl.js": "^6.4.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",

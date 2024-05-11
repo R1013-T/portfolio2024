@@ -15,12 +15,12 @@ const Text = React.forwardRef<HTMLHeadingElement, TextProps>(
         className={cn(
           className,
           type === 'h1'
-            ? 'text-2xl leading-10'
+            ? 'text-xl leading-10 pt-7'
             : type === 'h2'
-              ? 'text-xl leading-9'
+              ? 'text-lg leading-9 pt-6'
               : type === 'h3'
-                ? 'text-lg leading-8'
-                : 'text-base leading-7 text-foreground/80',
+                ? 'text-base leading-8'
+                : 'text-sm leading-6 text-foreground/80',
         )}
         ref={ref}
         {...props}

@@ -27,7 +27,7 @@ export default function CopyButton({
         })
       }}
       className={cn(
-        'border relative rounded-md w-8 h-8 grid place-content-center bg-muted text-muted-foreground',
+        'border relative rounded-md w-8 h-8 grid place-content-center bg-primary/10 text-muted-foreground',
         className,
       )}
     >
