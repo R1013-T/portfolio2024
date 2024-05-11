@@ -11,8 +11,7 @@ export default async function ArticleSection({ lang }: { lang: string }) {
       <GridItem
         title={t('article_title')}
         link={{
-          href: 'https://qiita.com/ryu1013',
-          blank: true,
+          href: `${lang}/blog`,
         }}
       >
         <ArticleItem lang={lang} />

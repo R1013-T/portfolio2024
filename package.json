@@ -20,6 +20,8 @@
     "@radix-ui/react-scroll-area": "^1.0.5",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-switch": "^1.0.3",
+    "@supabase/ssr": "^0.3.0",
+    "@supabase/supabase-js": "^2.43.1",
     "@types/node": "20.12.6",
     "@types/react": "18.2.75",
     "@types/react-dom": "18.2.24",
@@ -42,15 +44,18 @@
     "react-dom": "18.2.0",
     "react-fast-marquee": "^1.6.4",
     "react-i18next": "^14.1.0",
+    "react-syntax-highlighter": "^15.5.0",
     "tailwind-merge": "^2.2.2",
     "tailwindcss": "3.4.3",
     "tailwindcss-animate": "^1.0.7",
-    "typescript": "5.4.4"
+    "typescript": "5.4.4",
+    "unfurl.js": "^6.4.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@types/negotiator": "^0.6.3",
+    "@types/react-syntax-highlighter": "^15.5.13",
     "@typescript-eslint/eslint-plugin": "^7.6.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-simple-import-sort": "^12.0.0",
