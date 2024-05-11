@@ -20,7 +20,7 @@ export default async function AsideSection({ lang }: { lang: string }) {
         <GridItem
           title={t('article_title')}
           link={{
-            href: 'https://qiita.com/ryu1013',
+            href: `${lang}/blog`,
             blank: true,
           }}
         >
