@@ -43,7 +43,7 @@ export default async function BlogDetail({
       >
         <X className="w-5 h-5" />
       </Link>
-      <div className="mt-20 mb-3 flex justify-between">
+      <div className="mt-20 mb-3 flex flex-col md:flex-row gap-3 justify-between">
         <div className="flex flex-col gap-1">
           <h1 className="text-3xl leading-10">{article.title}</h1>
           <p className="mt-1 text-sm text-foreground/70">{article.date}</p>

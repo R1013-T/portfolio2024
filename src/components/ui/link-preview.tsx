@@ -20,10 +20,10 @@ export default async function LinkPreviewWidget({ url }: { url: string }) {
   return (
     <>
       {imageURL ? (
-        <div className="flex rounded mt-2 mb-3 bg-card border items-center gap-3 w-full p-3 relative">
+        <div className="flex rounded mt-2 mb-3 bg-card border items-center gap-3 w-56 md:w-full p-3 relative">
           {imageURL && (
             <div>
-              <div className="aspect-square border relative w-20 shrink-0 rounded-xl overflow-hidden">
+              <div className="aspect-square border relative w-16 md:w-20 shrink-0 rounded-xl overflow-hidden">
                 <Image
                   src={imageURL}
                   unoptimized
@@ -34,17 +34,17 @@ export default async function LinkPreviewWidget({ url }: { url: string }) {
               </div>
             </div>
           )}
-          <div className="flex-1 overflow-hidden">
-            <h1 className="font-bold mb-2 truncate leading-none">
+          <div className="overflow-hidden">
+            <h1 className="font-bold text-sm mb-2 truncate leading-none">
               <a href={url} target="_blank">
                 {metadata.open_graph.title || metadata.title}
                 <span className="absolute inset-0" />
               </a>
             </h1>
-            <p className="text-muted-foreground text-sm truncate">
+            <p className="text-muted-foreground text-xs truncate">
               {metadata.open_graph.description}
             </p>
-            <p className="text-sm text-muted-foreground/60 mt-2 leading-none truncate">
+            <p className="text-xs text-muted-foreground/60 mt-2 truncate">
               {url}
             </p>
           </div>
