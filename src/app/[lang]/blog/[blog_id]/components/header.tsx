@@ -27,13 +27,6 @@ export default function BlogHeader({ article }: { article: Article }) {
         </div>
         <p className="mt-1 text-sm text-foreground/70">{article.date}</p>
       </div>
-      <div className="h-8 w-8">
-        {article.qiita && (
-          <Link href={article.qiita} className="cursor-pointer" target="_blank">
-            <Image src={QiitaLogo} alt="Qiita" />
-          </Link>
-        )}
-      </div>
     </section>
   )
 }
