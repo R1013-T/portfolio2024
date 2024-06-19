@@ -20,7 +20,7 @@ export default async function LinkPreviewWidget({ url }: { url: string }) {
   return (
     <>
       {imageURL ? (
-        <div className="flex rounded mt-2 mb-3 bg-card border items-center gap-3 w-56 md:w-full p-3 relative">
+        <div className="flex rounded mt-2 mb-3 bg-card border items-center gap-3 w-full p-3 relative">
           {imageURL && (
             <div>
               <div className="aspect-square border relative w-16 md:w-20 shrink-0 rounded-xl overflow-hidden">

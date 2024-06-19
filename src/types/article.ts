@@ -1,9 +1,20 @@
 export type Article = {
   id: string
   title: string
+  description?: string
   content: ArticleItem[]
+  tag_map: TagMap[]
   date: string
   qiita?: string
+}
+
+type TagMap = {
+  tag_id: number
+  tags: Tag
+}
+
+type Tag = {
+  name: string
 }
 
 export type ArticleItem =
