@@ -20,9 +20,11 @@ export async function generateMetadata({
   }
 
   return {
-    title: article.title,
+    title: {
+      default: article.title,
+    },
     description: article.description || 'RYUブログ',
-    tags: article.tag_map.map((tag) => tag.tags.name).join(', '),
+    keywords: article.tag_map.map((tag) => tag.tags.name),
   }
 }
 

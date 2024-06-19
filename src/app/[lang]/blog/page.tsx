@@ -26,7 +26,7 @@ export default async function Blog({ params }: { params: { lang: string } }) {
   return (
     <article className="mt-8 mb-20 px-4 max-w-xl mx-auto">
       <BackButton lang={lang} />
-      <h2 className="mb-4 text-xl">RYU&apos;s ブログ</h2>
+      <h2 className="mb-4 text-xl">RYUブログ</h2>
       <ul className="flex flex-wrap gap-3">
         {articles.map((article) => (
           <li
