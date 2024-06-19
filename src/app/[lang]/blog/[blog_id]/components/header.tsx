@@ -1,11 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
-
 import { Text } from '@/components/ui/text'
 import type { Article } from '@/types/article'
-
-import QiitaLogo from '../assets/qiita-icon.png'
 
 export default function BlogHeader({ article }: { article: Article }) {
   const tags = article.tag_map.map((tag) => tag.tags.name)
