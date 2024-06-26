@@ -27,6 +27,9 @@ export default async function ProfileSection({
           </p>
         </div>
       </div>
+      <p className="mt-8 leading-6 text-foreground text-sm">
+        {t('about_desc')}
+      </p>
     </SectionWrapper>
   )
 }
