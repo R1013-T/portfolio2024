@@ -9,14 +9,24 @@ export default async function ExperienceSection({
 }) {
   const experience = [
     {
-      date: '2024/2 -',
+      date: '1day',
+      title: t('ateam'),
+      type: t('intern'),
+    },
+    {
+      date: '2024/2 - now',
       title: t('zeroichi'),
       type: t('intern'),
     },
     {
-      date: '2023/9 -',
+      date: '2023/9 - now',
       title: t('lt-circle'),
       type: t('school'),
+    },
+    {
+      date: '1day',
+      title: t('mitsuibussan'),
+      type: t('intern'),
     },
     {
       date: '2023/8 - 2023/3',
@@ -24,9 +34,14 @@ export default async function ExperienceSection({
       type: t('school'),
     },
     {
-      date: '2022/4 -',
+      date: '2022/4 - now',
       title: t('tech.c.'),
       type: t('school'),
+    },
+    {
+      date: '2021',
+      title: t('zenshopurocon'),
+      type: t('contest'),
     },
   ]
 
@@ -40,7 +55,7 @@ export default async function ExperienceSection({
       </p>
       <ul className="mt-4 px-1 flex flex-col gap-5">
         {experience.map((item, index) => (
-          <li key={index} className="flex flex-col gap-0.5">
+          <li key={index} className="flex flex-col gap-1">
             <p className="text-muted-foreground text-xs">{item.type}</p>
             <p className="text-sm">{item.title}</p>
             <p className="text-muted-foreground text-[11px]">{item.date}</p>

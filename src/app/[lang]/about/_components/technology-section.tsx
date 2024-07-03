@@ -3,24 +3,34 @@ import type { TFunction } from 'i18next'
 import SectionWrapper from './section-wrapper'
 
 const frontEnd = [
-  'TypeScript',
-  'React',
-  'Next.js',
-  'Tailwind CSS',
-  'shadcn/ui',
+  'TypeScript 💜💜',
+  'React 💜',
+  'Next.js 💜💜',
+  'Tailwind CSS 💜',
+  'shadcn/ui 💜',
+  'Mantine',
   'Auth.js',
 ]
 
-const backEnd = ['Node.js', 'Express', 'Go', 'Echo', 'Python', 'FastAPI']
+const backEnd = [
+  'Node.js 💜',
+  'Hono 💜',
+  'Express',
+  'Go 💜',
+  'Echo',
+  'Python',
+  'FastAPI',
+]
 
 const others = [
   'Docker',
-  'GitHub',
-  'Firebase',
-  'Supabase',
-  'Vercel',
+  'GitHub 💜',
+  'Firebase 💜',
+  'Supabase 💜',
+  'Hasura',
+  'Vercel 💜',
   'AWS',
-  'GCP',
+  'GCP 💜',
   'Azure',
 ]
 

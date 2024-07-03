@@ -10,11 +10,6 @@ export default async function ExperienceItem({ lang }: { lang: string }) {
       type: t('intern'),
     },
     {
-      date: '2023/9 -',
-      title: t('lt-circle'),
-      type: t('school'),
-    },
-    {
       date: '2023/8 - 2023/3',
       title: t('microsoft_seminar'),
       type: t('school'),

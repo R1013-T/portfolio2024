@@ -11,18 +11,22 @@
   "experience_page_desc_2": "I am currently attending school while participating in a long-term internship.",
 
   "school": "School",
-  "intern": "Intern",
+  "intern": "Internship",
+  "contest": "Contest",
 
+  "zenshopurocon": "Zen Shou Programming Contest Encouragement Award",
   "tech.c.": "TECH.C. enrollment",
   "microsoft_seminar": "Microsoft seminar",
   "lt-circle": "LT Circle",
   "zeroichi": "Zeroichi Laboratory, Inc.",
+  "mitsuibussan": "Mitsui Bussan Secure Directions, Inc.",
+  "ateam": "Ateam Inc.",
 
   "tech_title": "TECHNOLOGIES",
   "tech_desc_1": "I love Next.js, TypeScript 💜",
   "tech_desc_2": "I also use Go, Python depending on the case !",
   "tech_page_desc": "I am interested in web-related technologies in general.",
-  "tech_page_desc_2": "I am learning a wide range of technologies, regardless of front-end or back-end.",
+  "tech_page_desc_2": "I like front-end, but I am also learning other areas.",
 
   "front_end": "Front-end",
   "back_end": "Back-end",
@@ -37,7 +41,6 @@
 
   "chocolate": "Chocolate",
   "chocolate_desc": "I love chocolate. I love to eat and make it!",
-  "chocolate_desc_2": "I am currently studying for the Chocolate Specialist Exam.",
   "snowboard": "Snowboard",
   "snowboard_desc": "I have been snowboarding since elementary school. It's my winter fun.",
   "walking": "Walking",

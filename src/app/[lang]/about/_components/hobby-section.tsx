@@ -10,7 +10,7 @@ export default async function HobbySection({
   const hobbies = [
     {
       name: t('chocolate'),
-      desc: t('chocolate_desc') + ' ' + t('chocolate_desc_2'),
+      desc: t('chocolate_desc'),
     },
     {
       name: t('snowboard'),
