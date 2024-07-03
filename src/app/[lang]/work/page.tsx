@@ -55,25 +55,6 @@ export default async function Work({ params }: { params: { lang: string } }) {
       date: '2024/3 - 2024/4',
     },
     {
-      title: t('interview'),
-      description: t('interview_description'),
-      image: '/work/interview.webp',
-      link: {
-        href: 'https://ai-interview-ten.vercel.app/',
-        github: 'https://github.com/R1013-T/AI-Interview',
-      },
-      technologies: [
-        SiTypescript,
-        SiNextdotjs,
-        SiTailwindcss,
-        SiShadcnui,
-        SiVercel,
-        SiOpenai,
-        SiMicrosoftazure,
-      ],
-      date: '2024/3 - 2024/3',
-    },
-    {
       title: t('giftjob'),
       description: t('giftjob_description'),
       image: '/work/giftjob.webp',
@@ -119,7 +100,7 @@ export default async function Work({ params }: { params: { lang: string } }) {
       <ScrollArea className="h-dvh w-full">
         <article className="mt-8 mb-20 px-4 max-w-xl mx-auto">
           <h2 className="mb-8 text-xl">{t('work_title')}</h2>
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-12">
             {workItems.map((workItem, index) => (
               <WorkItem key={index} {...workItem} />
             ))}

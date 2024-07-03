@@ -17,7 +17,7 @@ export default async function WorkItem({ lang }: { lang: string }) {
     children: React.ReactNode
   }) => (
     <div
-      className={`absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 h-44 aspect-video 
+      className={`absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 h-44 aspect-video
       rounded-md overflow-hidden bg-background/50 shadow-sm shadow-purple-300 border-2 border-purple-300/30
       transition duration-300 group-hover:scale-110
       ${className}`}
